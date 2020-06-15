@@ -18,7 +18,7 @@ public class Heap_sort
         {
             int tmp=A[0];
             A[0]=A[i];
-            A[i]=A[tmp];
+            A[i]=tmp;
             
             heapify(A, i, 0);
         }
